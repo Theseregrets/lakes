@@ -16,6 +16,8 @@ body{
 
   text-align: center;
   padding: 8em 0;
+  bottom: 0;
+
 }
 
 h1{
@@ -29,7 +31,6 @@ h2{
 }
 svg{
   position: absolute;
-  top: 5%;
   bottom: 0;
   left: 0;
   z-index: -1;
