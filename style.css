@@ -78,12 +78,13 @@ svg{
   }
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 600px){
   svg{
-    display: flex;
-    top: 3%
+    top: 3%;
   }
-  .container{
-    padding-top: 3%;
+}
+@media only screen and (max-width: 600px){
+  svg{
+    bottom: 0;
   }
 }
