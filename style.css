@@ -18,6 +18,7 @@ body{
   padding: 8em 0;
   bottom: 0;
 
+
 }
 
 h1{
@@ -35,6 +36,7 @@ svg{
   left: 0;
   z-index: -1;
   overflow: visible;
+  background-size: cover;
 }
 
 .cloud1{
@@ -73,5 +75,15 @@ svg{
   }
   to{
     transform: translateX(50px);
+  }
+}
+
+@media only screen and (min-width: 768px){
+  svg{
+    display: flex;
+    top: 3%
+  }
+  .container{
+    padding-top: 3%;
   }
 }
