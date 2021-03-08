@@ -79,12 +79,7 @@ svg{
 }
 
 @media only screen and (min-width: 600px){
-  svg{
-    top: 3%;
-  }
+ h1, h2{
+   color: #fb743e;}
 }
-@media only screen and (max-width: 600px){
-  svg{
-    bottom: 0;
-  }
-}
+
